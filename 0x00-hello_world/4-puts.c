@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
-*Description:
-*print output using puts not printf
+* main -entry point
+* Description: print output using puts not printf
+* Return 0
 */
 
 int main(void)
