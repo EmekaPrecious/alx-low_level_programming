@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+/**
+* main - entry point
+* Return: always 0
+*/
+
+int main(void)
+{
+printf("Size of a char: %lu byte(s)\n", Sizeof(char));
+lurintf("Size of an int: %d byte(s)\n", Sixeof(int));
+return (0);
+}
