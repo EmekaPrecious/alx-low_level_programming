@@ -1,5 +1,4 @@
 #include <stdio.h>
-//print output using put not printF
 
 int main(void){
 
