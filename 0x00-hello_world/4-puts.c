@@ -3,7 +3,7 @@
 /**
 * main -entry point
 * Description: print output using puts not printf
-* Return 0
+* Return: Always 0 (success)
 */
 
 int main(void)
