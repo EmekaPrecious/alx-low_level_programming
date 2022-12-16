@@ -12,7 +12,9 @@ int num, i;
 for (num = 0; num <= 9; num++)
 {
 for (i = 0; i <= 14; i++)
-_putchar('i');
+if (i >= 10)
+_putchar('1');
+_putchar(i % 10 + '0')
 }
 _putchar('\n');
 }
