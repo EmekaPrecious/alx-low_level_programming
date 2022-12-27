@@ -2,6 +2,7 @@
 
 /**
 * main - prime factors of 612852475143
+* print the largest prime factor and a new line
 * Return: Always 0
 */
 
