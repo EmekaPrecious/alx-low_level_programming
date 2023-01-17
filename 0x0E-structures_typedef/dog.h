@@ -7,7 +7,7 @@
 * @age: age
 * @owner: owner
 * This struct is for dog, its crazy but i guess you 
-* can rename your main.h anything
+* can rename your main.h to anything
 */
 
 struct dog

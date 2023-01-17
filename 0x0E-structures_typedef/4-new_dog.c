@@ -27,7 +27,7 @@ return (len);
 * @dest: the buffer storing the string copy
 * @src: the source string
 * Return: The pointer to dest
-
+*/
 char *_strcopy(char *dest, char *src)
 {
 int index = 0;
@@ -47,15 +47,15 @@ return (dest);
 * Return: the new struct dog
 */
 
-dog_t *newdog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *doggo;
 
-if (name == NULL || AGE < 0 || owner == NULL)
+if (name == NULL || age < 0 || owner == NULL)
 return (NULL);
 
 doggo = malloc(sizeof(dog_t));
-if (doggo == NILL)
+if (doggo == NULL)
 return (NULL);
 
 doggo->name = malloc(sizeof(char) * (_strlen(name) + 1));
