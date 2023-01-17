@@ -1,1 +1,1 @@
-Repository for c language
+Structures, typedef
