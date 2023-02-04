@@ -4,6 +4,7 @@
 #include <stdlib.h>
 int _putchar(char c);
 char *create_array(unsigned int size, char c);
+char **strtow(char *str);
 char *_strdup(char *str);
 char *str_concat(char *si, char *s2);
 int **alloc_grid(int width, int height);
